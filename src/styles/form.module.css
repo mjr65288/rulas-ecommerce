@@ -1,0 +1,26 @@
+.globalFieldStyle {
+  width: 650px;
+}
+
+.mailingFieldStyle {
+  width: 650px;
+}
+
+.Ipv4FieldStyle {
+  width: 132px;
+}
+
+.userFieldStyle {
+  width: 160px;
+}
+
+.zipFieldStyle {
+  width: 100px;
+}
+
+.cityFieldStyle {
+  width: 240px;
+}
+.stateFieldStyle{
+  width: 240px;
+}

@@ -1,0 +1,16 @@
+
+.card {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.coloumSelectWidth{
+  width: 620px;
+}
+.table-data {
+  width: 1700px;
+}
+.table-width-menu-open{
+  width: 1380px;
+}

@@ -32,6 +32,35 @@ git push -uf origin main
 - [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
 - [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
+## SMM_NE_FRONTEND Local and Development Setup Steps
+
+Clone the Project repository : 
+git clone giturl
+
+Go to master branch:
+git checkout development
+
+Pull the code:
+git pull origin development
+
+Sometimes .env file is restricted by githooks in .gitignore, in that case please add the content of sample.env file to a new .env file in your codebase. It has all the secrets like DB URL etc.
+
+Install node modules:
+npm install
+
+Start the application by running the development server:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 ## Test and Deploy
 
 Use the built-in continuous integration in GitLab.
