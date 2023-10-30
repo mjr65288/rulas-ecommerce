@@ -1,0 +1,80 @@
+.layout-dashboard {
+  padding: 16px;
+  flex: 1 1 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  margin-top: -0.5rem;
+}
+.overview-box {
+  padding: 16px;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.sales {
+  background-color: #42a5f5;
+}
+
+.views {
+  background-color: #7e57c2;
+}
+
+.users {
+  background-color: #ffb300;
+}
+
+.checkin {
+  background-color: #66bb6a;
+}
+
+.overview-box.sales.verview-subinfo {
+  border-color: #bbdefb;
+  color: #bbdefb;
+}
+
+.overview-icon {
+  font-size: 2em;
+  float: right;
+}
+
+.overview-title {
+  margin-bottom: 8px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.overview-arrow {
+  color: #ffffff;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.overview-numbers {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.overview-subinfo {
+  font-size: 13px;
+  border-left: 4px solid;
+  margin-left: -16px;
+  padding-left: 12px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+}
+
+.card-w-title {
+  padding-bottom: 16px;
+}
