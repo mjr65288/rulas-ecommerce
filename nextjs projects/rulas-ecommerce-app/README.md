@@ -35,6 +35,18 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+## Insert data to database
+
+```bash
+npx prisma generate
+```
+
+```bash
+npm run seed
+```
+
+# 
+
 ## github repo 
 user: mjr65288
 password: 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
